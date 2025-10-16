@@ -1,0 +1,70 @@
+# General
+.DS_Store
+.env
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dependencies
+node_modules/
+vendor/
+build/
+dist/
+target/
+
+# Compiled files
+*.pyc
+__pycache__/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.obj
+*.lib
+*.bin
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.rar
+*.7z
+
+# IDE specific files
+*.iml
+.project
+.classpath
+.settings/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS specific files
+.localized
+.Trashes
+Icon?
+._*
+
+# Temporary files
+temp/
+tmp/
+cache/
+
+# User-specific files (not to be committed)
+# These are typically ignored globally in ~/.gitconfig
+# but can be added here if needed for specific projects.
+# my_local_config.ini
+# my_personal_notes.txt
+
+# Example: Ignoring all .log files except a specific one
+# *.log
+# !important.log
